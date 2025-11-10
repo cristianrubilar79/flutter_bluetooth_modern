@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.crubilar79.flutter_bluetooth_modern">
+
+    <!-- Permiso para Bluetooth Clásico (necesario hasta Android 11) -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- Permiso de ubicación, requerido para el escaneo de dispositivos en Android 6.0+ -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--
+         Nuevos permisos para Android 12 (API 31) y superior.
+         `neverForLocation` es una bandera importante para asegurar a Google Play
+         que no estás usando el escaneo de Bluetooth para obtener la ubicación del usuario.
+    -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+</manifest>
