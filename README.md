@@ -167,7 +167,7 @@ Este paquete proporciona una API limpia, segura y fácil de usar para interactua
 - **Gestión de Conexiones Explícita:** Maneja múltiples conexiones de forma robusta, donde cada conexión es un objeto `BluetoothConnection` independiente.
 - **Comunicación Bidireccional:** Lee y escribe datos a través de `Streams` y `Sinks` estándar de Dart.
 
-### 平台支持
+### Platforma Spportada
 
 | Android | iOS | Web | macOS | Windows | Linux |
 | :-----: | :-: | :-: | :---: | :-----: | :---: |

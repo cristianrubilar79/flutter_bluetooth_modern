@@ -1,5 +1,5 @@
 name: flutter_bluetooth_modern
-description: "A new Flutter plugin project."
+description: "A modern Flutter plugin for Classic Bluetooth (RFCOMM/SPP) communication on Android, built from the ground up with current best practices."
 version: 0.0.1
 homepage:
 
